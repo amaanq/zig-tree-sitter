@@ -1,0 +1,12 @@
+.{
+    .name = "zig-tree-sitter",
+    .version = "0.0.1",
+    .dependencies = .{
+        .tree_sitter = .{ .path = "src/tree-sitter" },
+    },
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+}
